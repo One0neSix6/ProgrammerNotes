@@ -127,17 +127,17 @@ indexbtn:
   enable: true
   name: Github
   icon: fab fa-github-alt
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/One0neSix6/ProgrammerNotes
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github: # https://github.com/blinkfox
+  github: https://github.com/One0neSix6/ProgrammerNotes
   email: oneya31319@qmail.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
-  qq: # 1181062873
+  qq: 599777737
   weibo: # https://weibo.com/xxx
   zhihu: # https://www.zhihu.com/xxx
   rss: false # true、false
@@ -205,14 +205,14 @@ clicklove:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatar.jpg
-  career: Software Engineer
-  introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
+  career: C++ Software Engineer
+  introduction:
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myProjects:
-  enable: true
+  enable: false
   data:
     hexo-theme-matery:
       icon: fas fa-file-alt
@@ -234,7 +234,7 @@ myProjects:
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的技能"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 mySkills:
-  enable: true
+  enable: false
   data:
     Java:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
@@ -259,7 +259,7 @@ mySkills:
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myGallery:
-  enable: true
+  enable: false
   data:
     - /medias/featureimages/0.jpg
     - /medias/featureimages/1.jpg
