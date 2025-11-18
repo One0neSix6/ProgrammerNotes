@@ -3,7 +3,7 @@
         <%- partial('_widget/music') %>
     <% } %>
     <div class="container row center-align" style="margin-bottom: <% if (theme.time.enable) { %>15<% } else { %>0<% } %>px !important;">
-        <div class="col s12 m8 l8 copy-right">
+        <div class="col s12 m8 l12 copy-right">
             Copyright&nbsp;&copy;
             <% if (theme.time.year !== new Date().getFullYear()) { %>
                 <span id="year"><%- theme.time.year %>-<%- new Date().getFullYear() %></span>

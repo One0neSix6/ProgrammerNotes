@@ -22,9 +22,9 @@ prev: Previous
 next: Next
 search: Search
 searchTip: Please enter a search keyword
-postTagTitle: Post Tags
-postCategoryTitle: Post Categories
-categoryRadarTitle: Post Categories Radar Chart
+postTagTitle: Tags
+postCategoryTitle: Categories
+categoryRadarTitle: Categories Radar Chart
 categoryNumber: Number of Categories
 categoryEmptyTip: Your posts has no categories information yet.
 postCharts: Post Charts
