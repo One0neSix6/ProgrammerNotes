@@ -104,7 +104,7 @@ void readFile() {
 
 ## 💡 典型 RAII 实例
 
-### `std::unique_ptr` / `std::shared_ptr`
+### std::unique_ptr
 
 ```cpp
 {
@@ -118,7 +118,7 @@ void readFile() {
 
 ------
 
-### `std::lock_guard` —— 线程锁保护
+### std::lock_guard
 
 ```cpp
 std::mutex m;
