@@ -42,8 +42,6 @@ var featureImages = theme.featureImages;
                     <div class="summary block-with-text">
                         <% if (page.prev.summary && page.prev.summary.length > 0) { %>
                             <%- page.prev.summary %>
-                        <% } else { %>
-                            <%- strip_html(page.prev.excerpt).substring(0, 120) %>
                         <% } %>
                     </div>
                     <div class="publish-info">
@@ -102,8 +100,6 @@ var featureImages = theme.featureImages;
                     <div class="summary block-with-text">
                         <% if (page.summary && page.summary.length > 0) { %>
                             <%- page.summary %>
-                        <% } else { %>
-                            <%- strip_html(page.excerpt).substring(0, 120) %>
                         <% } %>
                     </div>
                     <div class="publish-info">
@@ -164,8 +160,6 @@ var featureImages = theme.featureImages;
                     <div class="summary block-with-text">
                         <% if (page.next.summary && page.next.summary.length > 0) { %>
                             <%- page.next.summary %>
-                        <% } else { %>
-                            <%- strip_html(page.next.excerpt).substring(0, 120) %>
                         <% } %>
                     </div>
                     <div class="publish-info">
@@ -224,8 +218,6 @@ var featureImages = theme.featureImages;
                     <div class="summary block-with-text">
                         <% if (page.summary && page.summary.length > 0) { %>
                             <%- page.summary %>
-                        <% } else { %>
-                            <%- strip_html(page.excerpt).substring(0, 120) %>
                         <% } %>
                     </div>
                     <div class="publish-info">
