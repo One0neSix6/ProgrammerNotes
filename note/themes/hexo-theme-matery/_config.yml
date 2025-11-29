@@ -206,7 +206,7 @@ clicklove:
 profile:
   avatar: /medias/avatar.jpg
   career: C++ Software Engineer
-  introduction: 受限于 Netlify 额度，周五更新一次网站。
+  introduction: 受限于 Netlify 额度，每周五更新一次网站。
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
